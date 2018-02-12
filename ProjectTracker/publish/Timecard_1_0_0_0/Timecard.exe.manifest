@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="Timecard.exe" version="1.0.0.0" publicKeyToken="6f018fa37494458a" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="100_141.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Timecard" version="1.0.2223.27814" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Timecard.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Timecard.exe" size="405504">
+      <assemblyIdentity name="Timecard" version="1.0.2223.27814" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>EnsL5SEcoAnrRY186fcIeoGShSU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="100_141.ico" size="25214">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>2TYOnXVbQ7VycaRRozm2JRfJqCo=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DANIEL-E9B0820B\Dan" issuerKeyHash="fbb965e72c4c3c723d638eb7269db67a88db5c22" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>3RKLHE98SEqZd4xGuuYty+7YBjA=</DigestValue></Reference></SignedInfo><SignatureValue>UM8m/tO7HvmWRUuFOH06VRYhlU3pTVn7Y4MDzSwj/o4oy/+UTxaVMc7rn7peAmDgYQmwRlDKWDzVRq4ldRnhztOmnDTqfxq+iJt17KAvSQCsB/STf6S4WXr6uQaHfU1nKLBD+CRiPwdPZjcI9TvBeJsZ0nPiOc/4y3+ZH3tkYLQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>lPE8qS/a/jFB+1kPwKP3h3uWfCG8NsfDI4etNapF6Q/5qpZn+wpeZm7RdCW+jiulN78XglrwtErxWcBShvKeQyi3S5scSRQ6d86Z0arBZuLaABRLONf/4rdzMTgc7ocE6uAeFMIUJoQxU/qFQGSW2bVUSCQ9RyjvGjJ2RzG9//c=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3006d8eecb2de6ba468c77994a487c4f1c8b12dd" Description="" Url=""><as:assemblyIdentity name="Timecard.exe" version="1.0.0.0" publicKeyToken="6f018fa37494458a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DANIEL-E9B0820B\Dan</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>GArzBTx850v/SBFdeXtZGIhr38Y=</DigestValue></Reference></SignedInfo><SignatureValue>JAugh1O15v0lB2npnFWdSMhIocIGFt9oR/8HEBafREyzyOeCw4p9IycPyVnUgNUCXssG2zObvMPqiMa2REGkfKByvh3Uqlgf2G5puNvPqud7YODmRnogmD0UIH63NeJzLI7DmLygxvwQaTvZM3HOFEtUapZb3kUPEqSEDZxdgFc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>lPE8qS/a/jFB+1kPwKP3h3uWfCG8NsfDI4etNapF6Q/5qpZn+wpeZm7RdCW+jiulN78XglrwtErxWcBShvKeQyi3S5scSRQ6d86Z0arBZuLaABRLONf/4rdzMTgc7ocE6uAeFMIUJoQxU/qFQGSW2bVUSCQ9RyjvGjJ2RzG9//c=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUqgAwIBAgIQLuFwQlTLvK5JoSuk1Z/3TzAJBgUrDgMCHQUAMDExLzAtBgNVBAMeJgBEAEEATgBJAEUATAAtAEUAOQBCADAAOAAyADAAQgBcAEQAYQBuMB4XDTA2MDIwMTIxMTQxMFoXDTA3MDIwMjAzMTQxMFowMTEvMC0GA1UEAx4mAEQAQQBOAEkARQBMAC0ARQA5AEIAMAA4ADIAMABCAFwARABhAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJTxPKkv2v4xQftZD8Cj94d7lnwhvDbHwyOHrTWqRekP+aqWZ/sKXmZu0XQlvo4rpTe/F4Ja8LRK8VnAUobynkMot0ubHEkUOnfOmdGqwWbi2gAUSzjX/+K3czE4HO6HBOrgHhTCFCaEMVP6hUBkltm1VEgkPUco7xoydkcxvf/3AgMBAAEwCQYFKw4DAh0FAAOBgQBQDBSzmig3GmPo0wCsUAvvrz1ZowA0iDpVGpEwG1ZeWgKa7+26YleQtayHj0T9AU3LMLPE5/GW7MI9f+yF3tZHAVEw1Nb0EtMPXCV2oItByntbWCJQ/ZeeSfTGLY4OJ+08/eN9FQuql8SKBq2llriuev3Lw4BA22iW5hrq7fRNAQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
